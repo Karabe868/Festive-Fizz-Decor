@@ -1,41 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Festive Fizz Decor</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <div class="container">
+      <h1>Festive Fizz Decor</h1>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <h1>Festive Fizz Decor</h1>
-  <p>Where Celebrations Sparkle</p>
+  <main>
+    <section id="home" class="section">
+      <div class="container">
+        <h2>Welcome to Festive Fizz Decor</h2>
+        <p>Your one-stop shop for event decoration and party supplies that sparkle and shine.</p>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Party decorations" />
+      </div>
+    </section>
 
-  <hr>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>At Festive Fizz Decor, we believe every event should be magical. With over 10 years of experience, we provide customized decorations and party supplies to make your celebrations unforgettable.</p>
+      </div>
+    </section>
 
-  <nav>
-    <a href="#">Home</a> 
-    <a href="#">About Us</a> 
-    <a href="#">Services</a> 
-    <a href="#">Gallery</a> 
-    <a href="#">Contact</a>
-  </nav>
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Event Decoration – weddings, birthdays, corporate events</li>
+          <li>Custom Party Supplies – balloons, banners, tableware</li>
+          <li>Theme-Based Styling and Setup</li>
+          <li>On-Site Assistance and Delivery</li>
+        </ul>
+      </div>
+    </section>
 
-  <hr>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
 
-  <h2>Welcome to Festive Fizz Decor!</h2>
-  <p>We specialize in creating unforgettable party atmospheres with stunning decorations and custom supplies for all occasions.</p>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required />
 
-  <h3>Our Services</h3>
-  <ul>
-    <li><strong>Birthday Parties:</strong> Colorful themes, balloons, and personalized backdrops.</li>
-    <li><strong>Weddings:</strong> Elegant decor and dreamy floral arrangements.</li>
-    <li><strong>Corporate Events:</strong> Professional yet festive event styling and branding.</li>
-  </ul>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
 
-  <hr>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Festive Fizz Decor | Designed with joy and sparkle</p>
+    <div class="container">
+      <p>© 2025 Festive Fizz Decor. All rights reserved.</p>
+    </div>
   </footer>
-
 </body>
 </html>
