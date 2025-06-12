@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services - Festive Fizz Decor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="services">
+  <header>
+    <h1>Festive Fizz Decor</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Balloon Arrangements & Arches</li>
+      <li>Custom Party Themes & Backdrops</li>
+      <li>Event Table Styling</li>
+      <li>Lighting & Ambiance Decor</li>
+      <li>Event Planning Packages</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Festive Fizz Decor. All rights reserved.</p>
+  </footer>
+</body>
+</html>
