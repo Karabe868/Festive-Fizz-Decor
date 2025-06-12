@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Festive Fizz Decor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact">
+  <header>
+    <h1>Festive Fizz Decor</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <p>Let's plan something amazing together! Reach us at:</p>
+    <p><strong>Phone:</strong> 57889493</p>
+    <p><strong>Email:</strong> <a href="mailto:festivefizzdecor@gmail.com">festivefizzdecor@gmail.com</a></p>
+
+    <form action="#" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Festive Fizz Decor. All rights reserved.</p>
+  </footer>
+</body>
+</html>
