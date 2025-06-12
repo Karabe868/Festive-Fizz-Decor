@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Festive Fizz Decor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="about">
+  <header>
+    <h1>Festive Fizz Decor</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>About Us</h2>
+    <p>Festive Fizz Decor was created to bring your party dreams to life. Whether it’s a birthday, wedding, or corporate event, we add the sparkle, color, and creativity that make your event unforgettable.</p>
+    <p>With years of experience in event styling and custom party supplies, we are passionate about creating joyful and vibrant atmospheres that your guests will remember.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Festive Fizz Decor. All rights reserved.</p>
+  </footer>
+</body>
+</html>
